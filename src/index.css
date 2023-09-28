@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,700;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background: url(https://media4.giphy.com/media/pVGsAWjzvXcZW4ZBTE/giphy.gif?cid=ecf05e471ytepzlpp8gf97kjvpvah1tw234758jvclizoz63&ep=v1_gifs_search&rid=giphy.gif&ct=g) center/cover;
+  background-attachment: fixed; /* Imagem de fundo fixa */
+}
+
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.logo {
+  font-family: 'Mogra', cursive;
+  font-weight: bold;
+  margin-top: 1rem;
+  display: inline-block;
+  font-size: 60px; /* Tamanho maior para um toque futurista */
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 15rem auto 0; /* Adicione "auto" para centralizar horizontalmente */
+  max-width: 315px;
+  background-color: #ae63e4;
+  border: 5px solid #5e2ae9;
+  box-shadow: 10px 10px 0 #5e2ae9;
+  filter: saturate(.1);
+  border-radius: 1.5px; 
+}
+
+.content_title {
+  font-weight: 700;
+  font-size: 80px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #092047;
+}
+
+.content_description {
+  font-weight: 400;
+  font-size: 24px;
+  opacity: 0.9;
+  text-align: center;
+  color: #092047;
+}
+
+.form {
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form .form_input {
+  max-width: 500px;
+  min-width: 300px;
+  height: 48px;
+  background: rgba(0, 0, 0, 0.7); /* Fundo escuro com transparência */
+  outline: none;
+  border: none;
+  padding: 0 15px;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-bottom: 1.5rem;
+}
+
+.form .form_button {
+  width: 150px; /* Largura maior para um botão mais destacado */
+  height: 40px; /* Altura maior para um botão mais visível */
+  background: #b7c1de;
+  border: none;
+  outline: none;
+  text-align: center; 
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 18px; /* Tamanho de fonte aumentado */
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.download_btn {
+  width: 150px; /* Largura maior para um botão mais destacado */
+  height: 40px; /* Altura maior para um botão mais visível */
+  background: rgb(10, 10, 43);
+  border: none;
+  outline: none;
+  text-align: center; 
+  color: #ac61b9;
+  border-radius: 2px;
+  font-size: 18px; /* Tamanho de fonte aumentado */
+  font-weight: bold;
+  text-transform: uppercase;  
+  text-decoration: none;
+  padding-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    margin-top: 10rem;
+  }
+
+  .content_title {
+    font-size: 40px;
+  }
+}
